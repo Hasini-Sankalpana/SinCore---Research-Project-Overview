@@ -425,7 +425,7 @@ export default function SinhalaRagResearchWebsite() {
                   <img src={coSupervisorImg} alt="Co-Supervisor" className="h-28 w-28 shrink-0 rounded-full object-cover ring-2 ring-cyan-400/30" />
                   <div className="mt-4 sm:ml-6 sm:mt-0">
                     <p className="text-sm uppercase tracking-[0.2em] text-cyan-300">Co-Supervisor</p>
-                    <p className="mt-2 text-lg font-semibold text-slate-200">Dr. Iroshan Viratne</p>
+                    <p className="mt-2 text-lg font-semibold text-slate-200">Dr. Iroshan Aberathne</p>
                     <p className="mt-1 text-slate-300">Head of Engineering – Sinorbis (Australia)</p>
                     <p className="text-sm text-slate-400">Former Senior Lecturer</p>
                     <p className="text-sm text-slate-400">Faculty of Technology, University of Sri Jayewardenepura</p>
