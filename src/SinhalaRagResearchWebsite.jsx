@@ -391,19 +391,19 @@ export default function SinhalaRagResearchWebsite() {
               <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">Team Members</p>
               <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 <div className="rounded-3xl border border-white/10 bg-white/5 p-6 text-center">
-                  <img src={teamHasini} alt="Hasini Sankalpana" className="mx-auto h-32 w-32 rounded-full object-cover ring-2 ring-cyan-400/30" />
-                  <p className="mt-4 text-lg font-semibold text-white">Hasini Sankalpana</p>
-                  <p className="text-sm text-slate-400">Team Member</p>
+                  <img src={teamHasini} alt="De Silva G.H.S." className="mx-auto h-32 w-32 rounded-full object-cover ring-2 ring-cyan-400/30" />
+                  <p className="mt-4 text-lg font-semibold text-white">De Silva G.H.S.</p>
+                  <p className="text-sm text-slate-400">ICT/21/823</p>
                 </div>
                 <div className="rounded-3xl border border-white/10 bg-white/5 p-6 text-center">
-                  <img src={teamNimeth} alt="Nimeth Indunu" className="mx-auto h-32 w-32 rounded-full object-cover ring-2 ring-cyan-400/30" />
-                  <p className="mt-4 text-lg font-semibold text-white">Nimeth Indunu</p>
-                  <p className="text-sm text-slate-400">Team Member</p>
+                  <img src={teamNimeth} alt="Dasanayake D.A.N.I." className="mx-auto h-32 w-32 rounded-full object-cover ring-2 ring-cyan-400/30" />
+                  <p className="mt-4 text-lg font-semibold text-white">Dasanayake D.A.N.I.</p>
+                  <p className="text-sm text-slate-400">ICT/21/821</p>
                 </div>
                 <div className="rounded-3xl border border-white/10 bg-white/5 p-6 text-center">
-                  <img src={teamPasindu} alt="Pasindu Dilshan" className="mx-auto h-32 w-32 rounded-full object-cover ring-2 ring-cyan-400/30" />
-                  <p className="mt-4 text-lg font-semibold text-white">Pasindu Dilshan</p>
-                  <p className="text-sm text-slate-400">Team Member</p>
+                  <img src={teamPasindu} alt="Dasanayake D.M.P.D." className="mx-auto h-32 w-32 rounded-full object-cover ring-2 ring-cyan-400/30" />
+                  <p className="mt-4 text-lg font-semibold text-white">Dasanayake D.M.P.D.</p>
+                  <p className="text-sm text-slate-400">ICT/21/822</p>
                 </div>
               </div>
             </div>
