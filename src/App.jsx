@@ -1,4 +1,4 @@
-import SinhalaRagResearchWebsite from './SinhalaRagResearchWebsite';
+import SinhalaRagResearchWebsite from './Sincore';
 
 function App() {
   return <SinhalaRagResearchWebsite />;
