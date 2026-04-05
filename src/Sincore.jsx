@@ -662,8 +662,8 @@ export default function SinhalaRag() {
       <section id="evaluation" className="scroll-mt-20 px-6 py-16 md:py-20 bg-gray-50">
         <div className="mx-auto max-w-6xl">
 
-          {/* Section header */}
-          <Reveal className="max-w-2xl mb-6">
+          {/* Section header — centered so users notice the stage tabs below */}
+          <Reveal className="max-w-3xl mb-4 mx-auto text-center">
             <span className="inline-block text-xs font-black tracking-widest uppercase text-indigo-500 mb-3">Evaluation</span>
             <h2 className="text-3xl font-extrabold tracking-tight md:text-4xl text-gray-900">System evaluation across all stages</h2>
             <p className="mt-4 text-base leading-7 text-gray-500">
@@ -671,16 +671,19 @@ export default function SinhalaRag() {
             </p>
           </Reveal>
 
-          {/* Stage selector */}
+          {/* Stage selector — centered, scrollable on narrow screens */}
           <Reveal>
-            <div className="mb-10 overflow-x-auto pb-2">
-              <div className="flex gap-2 w-fit bg-white border border-gray-200 rounded-2xl p-2 shadow-sm">
-                {evalStages.map(s => (
-                  <button key={s.id} onClick={() => setEvalStage(s.id)}
-                    className={`stage-btn ${evalStage === s.id ? "active" : ""}`}>
-                    {s.label}
-                  </button>
-                ))}
+            <div className="mb-10 mx-auto max-w-6xl">
+              <p className="text-center text-sm font-semibold text-gray-600 mb-3">Choose a stage to view results</p>
+              <div className="flex justify-center overflow-x-auto pb-2 pt-0.5 [-webkit-overflow-scrolling:touch]">
+                <div className="flex gap-2 w-max shrink-0 bg-white border-2 border-indigo-100 rounded-2xl p-2 shadow-md ring-1 ring-indigo-50">
+                  {evalStages.map(s => (
+                    <button key={s.id} type="button" onClick={() => setEvalStage(s.id)}
+                      className={`stage-btn ${evalStage === s.id ? "active" : ""}`}>
+                      {s.label}
+                    </button>
+                  ))}
+                </div>
               </div>
             </div>
           </Reveal>
